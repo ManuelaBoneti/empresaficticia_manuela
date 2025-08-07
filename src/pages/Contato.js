@@ -1,6 +1,7 @@
 
 import Banner from '../componentes/Banner/index.js';
 import NavBar from '../componentes/NavBar/index.js';
+import Footer from '../componentes/Footer/index.js';
 
 const Contato = () => {
 
@@ -29,8 +30,8 @@ const Contato = () => {
                     </div>
                     <button className="btn-enviar" onClick={aoClicar} type='submit'>Enviar</button>
                 </form>
-            
             </div>
+            <Footer/>
         </div>
     );
 }

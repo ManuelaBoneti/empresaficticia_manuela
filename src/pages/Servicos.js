@@ -1,5 +1,6 @@
 import Banner from '../componentes/Banner/index.js';
 import NavBar from '../componentes/NavBar/index.js';
+import Footer from '../componentes/Footer/index.js';
 
 const Servicos = () => {
   return (
@@ -18,6 +19,7 @@ const Servicos = () => {
           <li>Treinamentos e Workshops em IA</li>
         </ul>
       </div>
+      <Footer/>
     </div>
   );
 }

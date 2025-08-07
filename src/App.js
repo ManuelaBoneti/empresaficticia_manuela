@@ -16,7 +16,7 @@ function App() {
           <Route path="*" element={<div>Página não encontrada</div>}/>
         </Routes>
       </BrowserRouter>
-      <Footer/>
+
     </div>
   );
 }
