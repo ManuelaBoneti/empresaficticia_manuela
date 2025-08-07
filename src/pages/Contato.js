@@ -1,4 +1,5 @@
 
+import Banner from '../componentes/Banner/index.js';
 import NavBar from '../componentes/NavBar/index.js';
 
 const Contato = () => {
@@ -9,6 +10,7 @@ const Contato = () => {
     
     return (
         <div>
+            <Banner />
             <NavBar />
             <div className='container'>
             <h1>Contato</h1>

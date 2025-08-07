@@ -1,8 +1,10 @@
+import Banner from "../componentes/Banner";
 import NavBar from "../componentes/NavBar";
 
 const Home = () => {
     return (
         <div>
+            <Banner/>
             <NavBar />
             <div className="container-home">
                 <h1 className="titulo">Home</h1>

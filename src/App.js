@@ -3,15 +3,11 @@ import './App.css';
 import Home from "./pages/Home";
 import Servicos from "./pages/Servicos";
 import Contato from "./pages/Contato";
-import Banner from "./componentes/Banner/index.js";
 import Footer from "./componentes/Footer/index.js";
-
-
 
 function App() {
   return (
     <div>
-      <Banner />
        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}/>
